@@ -1,0 +1,39 @@
+{
+  "art": [
+    {
+      "id": "1",
+      "title": "The MonaLisa",
+      "artist": "Leonardo da Vinci",
+      "description": "The Mona Lisa is a half-length portrait painting by Italian artist Leonardo da Vinci.",
+      "link": "https://t3.ftcdn.net/jpg/02/73/22/74/360_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The Starry Night",
+      "artist": "Vincent Van Gogh",
+      "description": "The Starry Night (Dutch: De sterrennacht) is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.",
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlVQ2uYvdRGBQe2jKfp-3k_pI9DHEBj7n7N_TF05XqmyzAacgdwzTJ64I29A-ecjPA-5A&usqp=CAU"
+    },
+    {
+      "id": "3",
+      "title": "The Birth of Venus",
+      "artist": "Sandro Botticeli",
+      "description": "The Birth of Venus is a painting by the Italian artist Sandro Botticelli, probably executed in the mid 1480s. It depicts the goddess Venus arriving at the shore after her birth, when she had emerged from the sea fully-grown (called Venus Anadyomene and often depicted in art). ",
+      "link": "https://en.wikipedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg"
+    },
+    {
+      "id": "4",
+      "title": "A Girl with a Peal Earing",
+      "artist": "Johannes Vermeer",
+      "description": "Girl with a Pearl Earring (Dutch: Meisje met de parel)[1][2] is an oil painting by Dutch Golden Age painter Johannes Vermeer, dated c. 1665. Going by various names over the centuries, it became known by its present title towards the end of the 20th century after the earring worn by the girl portrayed there.",
+      "link": "https://en.wikipedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Las Meninas",
+      "artist": "F.J. Sanchez Carlton",
+      "description": "Las Meninas (Spanish for 'The Ladies-in-waiting'[a] pronounced [las meˈninas]) is a 1656 painting in the Museo del Prado in Madrid, by Diego Velázquez, the leading artist of the Spanish Baroque. It has become one of the most widely analyzed works in Western painting for the way its complex and enigmatic composition raises questions about reality and illusion, and for the uncertain relationship it creates between the viewer and the figures depicted",
+      "link": "https://en.wikipedia.org/wiki/Las_Meninas#/media/File:Las_Meninas,_by_Diego_Vel%C3%A1zquez,_from_Prado_in_Google_Earth.jpg"
+    }
+  ]
+}
