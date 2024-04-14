@@ -1,0 +1,1 @@
+# artGalleryPhase1Project
