@@ -26,8 +26,19 @@ console.log(welcome);
 welcome.addEventListener("click", () => {
 alert("the best pieces ever");
 });
-
-// adding event listener to display name of the art on hover
+gir 
 document.getElementById('wistlersMother').addEventListener('mouseover', ()=> {
   console.log("Whistler's Mother");
 })
+// Adding like functionality 
+const likeButton = document.getElementById('like-button');
+const likeCountElement = document.getElementById('like-count');
+
+let likeCount = JSON.parse(localStorage.getItem('likeCount')) || 0;
+likeCountElement.innerText = likeCount;
+
+likeButton.addEventListener('click', () => {
+  likeCount++;
+  likeCountElement.innerText = likeCount;
+  localStorage.setItem('likeCount', JSON.stringify(likeCount));
+});

@@ -1,60 +1,105 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset default styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
 header {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
-nav {
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+/* Navigation styles */
+#landing {
   background-color: #444;
-  padding: 10px;
+  padding: 10px 0;
   text-align: center;
 }
-nav a {
+
+#landing a {
   color: #fff;
   text-decoration: none;
-  padding: 10px 20px;
   margin: 0 10px;
+  font-size: 1.1rem;
 }
-nav a:hover {
-  background-color: #666;
-}
+
+/* Container styles */
 .container {
   max-width: 1200px;
   margin: 20px auto;
   padding: 0 20px;
 }
-h1 {
-  text-align: center;
+
+.container h2 {
+  margin-bottom: 20px;
 }
+
+/* Artwork styles */
 .artwork {
+  background-color: #fff;
+  padding: 20px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .artwork img {
   max-width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
+
 .artwork h2 {
-  text-align: center;
-  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
+
 .artwork p {
-  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
+
+/* Like button styles */
+#like-button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#like-button:hover {
+  background-color: #45a049;
+}
+
+/* Footer styles */
 footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
-position:relative;
-  bottom: 0;
-  width: 100%;
+}
+
+footer p {
+  font-size: 0.9rem;
 }
